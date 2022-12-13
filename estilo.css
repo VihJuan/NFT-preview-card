@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Outfit:wght@300;400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    display: 0;
+    padding: 0;
+}
+
+body{
+    background: hsl(217, 54%, 11%);
+}
+
+.container{
+    background: hsl(216, 50%, 16%);
+    width: 320px;
+    justify-content: center;
+    left: 500px;
+    height: 550px;
+    display: flex;
+    position: relative;
+    border-radius: 3%;
+    top: 100px;
+}
+
+.img{
+    bottom: 30px;
+    padding: 350px;
+    padding-top: 50px;
+    height:20px;
+    position: relative;
+    z-index: 2;
+    
+}
+.text{
+    color: hsl(0, 0%, 100%);
+}
+.text h1{
+    font-family: 'Outfit', sans-serif;
+
+}
+.text p{
+    color: hsl(215, 51%, 70%);
+}
+.preco{
+    color: hsl(178, 100%, 50%);
+}
+.preco p{
+    position: relative;
+    left: 190px;
+    bottom: 40px;
+    
+    
+}
+
+.per{
+    position: relative;
+    bottom: 40px;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    
+
+}
+.per p1{
+    
+    
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+}
+
+.per p2{
+    position: relative;
+    left: 15px;
+    bottom: 20px;
+    color: hsl(0, 0%, 100%);
+}
+.ocult{
+    flex: 0;
+    position: relative;
+    left: 640px;
+    bottom: 310px;
+    z-index: 1 ;
+}
+
+.fund{
+    width: 270px; height: 270px;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 20;
+    position: relative;
+    left: 525px;
+    bottom: 475px;
+    z-index: 0;
+    opacity: 0.3;
+    
+}
+
+.img img:hover{
+    cursor:pointer;
+    opacity: 0.5;
+}
+
+.text h1:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+.per p2:hover{
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+
